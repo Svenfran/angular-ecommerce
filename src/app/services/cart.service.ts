@@ -52,10 +52,10 @@ export class CartService {
     this.totalQuantity.next(totalQuantityValue);
 
     // log cart data for debugging purpose
-    this.locCartData(totalPriceValue, totalQuantityValue);
+    this.logCartData(totalPriceValue, totalQuantityValue);
   }
 
-  locCartData(totalPriceValue: number, totalQuantityValue: number) {
+  logCartData(totalPriceValue: number, totalQuantityValue: number) {
     console.log("Contents of the cart");
     for (let tempCartItem of this.cartItems) {
       const subTotalPrice = tempCartItem.quantity * tempCartItem.unitPrice;
