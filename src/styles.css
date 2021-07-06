@@ -515,7 +515,7 @@ input.au-input.au-input-xl{
     background:#fff
 }
 .main-content.page-m{
-    padding:10% 15%!important
+    padding:10% 30% 10% 5%
 }
 
 /* 
@@ -715,7 +715,7 @@ table.table.table-bordered th{
  * ----------------------------
  */
 
- .price{
+.price{
     margin:15px 0 0;
     font-weight:800;
     color:#0da8e4
@@ -723,6 +723,11 @@ table.table.table-bordered th{
 .detail-section{
     margin-top:60px
 }
+
+.detail-img{
+    width: 30%;
+}
+
 /**/
 
 /* 
@@ -731,7 +736,7 @@ table.table.table-bordered th{
  * ----------------------------
  */
 
- .btn-info{
+.btn-info{
     color:#fff;
     background-color:#0da8e4!important;
     border-color:#0da8e4!important
